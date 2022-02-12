@@ -1,0 +1,55 @@
+@import "https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&display=swap";
+@import "https://polaroid7.netlify.app/polaroid.css";
+
+:root {
+	--gray: #b1b1b1;
+	--white: #ffffff;
+	--off-white: #fafafa;
+	--hover: #45494d;
+	--black-100: #242628;
+	--black-200: #212325;
+	--black-300: #131517;
+	--light-blue: #e3dfff;
+	--error-color: #ce3838;
+	--success-color: #1fa650;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	color: var(--off-white);
+	background-color: var(--black-300);
+	font-family: "Inter", -apple-system, BlinkMacSystemFont, Inter, Segoe UI,
+		Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
+		Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+.content {
+	max-width: 50rem;
+}
+
+.cta {
+	color: var(--black-200);
+}
+
+.cta:hover {
+	opacity: 0.6;
+}
+
+.primary-cta {
+	background: var(--off-white);
+}
+
+.cta-icon {
+	font-size: 2rem;
+}
+
+.cta:hover .cta-icon {
+	transform: translateX(8px);
+}
+
+@media screen and (max-width: 767px) {
+	html {
+		font-size: 50%;
+	}
+}
