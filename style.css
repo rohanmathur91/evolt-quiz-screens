@@ -15,8 +15,6 @@
 }
 
 body {
-	margin: 0;
-	padding: 0;
 	color: var(--off-white);
 	background-color: var(--black-300);
 	font-family: "Inter", -apple-system, BlinkMacSystemFont, Inter, Segoe UI,
@@ -24,8 +22,26 @@ body {
 		Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
+/* navigation */
+.navbar {
+	background-color: inherit;
+	border: 1px solid var(--black-100);
+}
+
 .content {
 	max-width: 50rem;
+}
+
+.home-container {
+	height: calc(100vh - 6.3rem);
+}
+
+.home-content {
+	width: 50%;
+}
+
+.food-img {
+	fill: var(--off-white);
 }
 
 .cta {
@@ -51,5 +67,9 @@ body {
 @media screen and (max-width: 767px) {
 	html {
 		font-size: 50%;
+	}
+
+	.home-container {
+		height: 100%;
 	}
 }
