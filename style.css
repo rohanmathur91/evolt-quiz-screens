@@ -36,6 +36,10 @@ body {
 	height: calc(100vh - 6.4rem);
 }
 
+.text-gray {
+	color: var(--gray);
+}
+
 .cta {
 	color: var(--black-200);
 }
