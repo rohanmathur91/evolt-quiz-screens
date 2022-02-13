@@ -33,15 +33,7 @@ body {
 }
 
 .home-container {
-	height: calc(100vh - 6.3rem);
-}
-
-.home-content {
-	width: 50%;
-}
-
-.food-img {
-	fill: var(--off-white);
+	height: calc(100vh - 6.4rem);
 }
 
 .cta {
@@ -50,6 +42,10 @@ body {
 
 .cta:hover {
 	opacity: 0.6;
+}
+
+.login-cta:hover {
+	color: var(--gray);
 }
 
 .primary-cta {
@@ -66,7 +62,7 @@ body {
 
 @media screen and (max-width: 767px) {
 	html {
-		font-size: 50%;
+		font-size: 54%;
 	}
 
 	.home-container {
