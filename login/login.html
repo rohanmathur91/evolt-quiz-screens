@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Rohan Mathur" />
+    <meta name="description" content="Evolt a quiz app for testing your knowledge" />
+
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="./login.css">
+
+    <title>Evolt | Login</title>
+</head>
+
+<body>
+    <nav class="navbar flex-row content-space-between items-center fixed top-0 z-1 w-100  py-2 px-6">
+        <a class="text-xl font-black" href="../index.html">Evolt</a>
+        <a class="login-cta transition-2" href="./login/login.html">login</a>
+    </nav>
+
+    <div class="home-container flex-row items-center content-space-around wrap mt-8 p-2">
+        <form class="form rounded-sm p-2" action="login.html">
+            <h3 class="text-center my-3">Login</h3>
+            <div class="flex-column m-1">
+                <label for="email">Email</label>
+                <input class="mt-1 mb-3 py-1 px-2 text-base border rounded-sm" id="email" type="email"
+                    placeholder="Enter your email">
+
+
+
+                <label for="password">Password</label>
+                <input class="mt-1 mb-3 py-1 px-2 text-base border rounded-sm" id="password" type="password"
+                    placeholder="Enter your password">
+
+
+                <button class="cta primary-cta font-bold rounded-sm py-1 p-2 mb-2 transition-2">
+                    Login
+                </button>
+
+                <p class="text-center gray">Create New Account <a class="underline" href="./signup.html">Sign up</a></p>
+            </div>
+        </form>
+
+    </div>
+</body>
+
+</html>

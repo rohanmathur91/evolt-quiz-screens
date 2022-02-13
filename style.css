@@ -4,28 +4,36 @@
 :root {
 	--gray: #b1b1b1;
 	--white: #ffffff;
-	--off-white: #fafafa;
 	--hover: #45494d;
-	--black-100: #242628;
-	--black-200: #212325;
-	--black-300: #131517;
-	--light-blue: #e3dfff;
+	--primary-color: #fafafa;
+	--secondary-color: #131517;
+	--secondary-light-color: #242628;
+	--secondary-hover-color: #212325;
 	--error-color: #ce3838;
 	--success-color: #1fa650;
 }
 
 body {
-	color: var(--off-white);
-	background-color: var(--black-300);
+	color: var(--primary-color);
+	background-color: var(--secondary-color);
 	font-family: "Inter", -apple-system, BlinkMacSystemFont, Inter, Segoe UI,
 		Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
 		Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
+input,
+button {
+	font-family: inherit;
+}
+
+input:focus {
+	outline: 2px solid var(--secondary-color);
+}
+
 /* navigation */
 .navbar {
 	background-color: inherit;
-	border: 1px solid var(--black-100);
+	border: 1px solid var(--secondary-light-color);
 }
 
 .content {
@@ -37,7 +45,7 @@ body {
 }
 
 .cta {
-	color: var(--black-200);
+	color: var(--secondary-hover-color);
 }
 
 .cta:hover {
@@ -49,7 +57,7 @@ body {
 }
 
 .primary-cta {
-	background: var(--off-white);
+	background: var(--primary-color);
 }
 
 .cta-icon {
@@ -58,6 +66,10 @@ body {
 
 .cta:hover .cta-icon {
 	transform: translateX(8px);
+}
+
+.underline {
+	text-decoration: underline;
 }
 
 @media screen and (max-width: 767px) {
