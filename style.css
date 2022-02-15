@@ -72,7 +72,7 @@ input:focus {
 	text-decoration: underline;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 48em) {
 	html {
 		font-size: 54%;
 	}
