@@ -16,9 +16,7 @@
 body {
 	color: var(--primary-color);
 	background-color: var(--secondary-color);
-	font-family: "Inter", -apple-system, BlinkMacSystemFont, Inter, Segoe UI,
-		Roboto, Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
-		Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+	font-family: "Inter", sans-serif;
 }
 
 input,
@@ -33,7 +31,7 @@ input:focus {
 /* navigation */
 .navbar {
 	background-color: inherit;
-	border: 1px solid var(--secondary-light-color);
+	border-bottom: 1px solid var(--secondary-light-color);
 }
 
 .content {
