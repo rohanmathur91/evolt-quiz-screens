@@ -1,0 +1,11 @@
+.card-category {
+	width: 32rem;
+	padding: 1rem;
+	align-self: flex-start;
+	background-color: var(--black-100);
+}
+
+.category-img {
+	height: 25rem;
+	width: 100%;
+}
