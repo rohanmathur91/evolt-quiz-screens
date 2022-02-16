@@ -1,0 +1,8 @@
+.quiz-answer {
+	color: var(--primary-color);
+	background-color: var(--secondary-light-color);
+}
+
+.quiz-answer:hover {
+	background-color: var(--hover);
+}
