@@ -1,0 +1,11 @@
+.result {
+	background-color: var(--secondary-light-color);
+}
+
+.wrong-answer {
+	background: var(--error-color);
+}
+
+.correct-answer {
+	background: var(--success-color);
+}
