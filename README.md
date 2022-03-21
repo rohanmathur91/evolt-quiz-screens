@@ -1,6 +1,6 @@
 # Evolt-quiz
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/75dc47d0-a212-4198-8e02-1908ed7f8952/deploy-status)](https://app.netlify.com/sites/evolt-quiz/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f1ea7623-a741-416a-9537-e7c1c2746ee9/deploy-status)](https://app.netlify.com/sites/evolt-quiz-screens/deploys)
 
 ## Tech Stack:
  - HTML
