@@ -12,3 +12,5 @@
  - Rules page for attempting quiz
  - MCQ based quiz question page
  - Result page with answers & score
+ - Signup page
+ - Login page
